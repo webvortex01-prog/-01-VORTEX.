@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VORTEX | Digital Architects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="vortex-grid">
+
+    <div class="blob top-0 -left-20"></div>
+    <div class="blob bottom-0 -right-20"></div>
+
+    <!-- CSS da animação typing-heavy agora está em styles.css -->
+
+    <!-- 2. ESTRUTURA DO HEADER COM ALINHAMENTO VERTICAL SOBRE O TEXTO -->
+    <header class="p-8">
+        <div class="flex items-center gap-6 group cursor-default">
+
+            <!-- Ícone do Raio à Esquerda -->
+            <div
+                class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center rotate-45 transition-all duration-500 group-hover:rotate-[405deg] group-hover:bg-blue-500 shadow-[0_0_20px_rgba(59,130,246,0.4)]">
+                <i class="fas fa-bolt -rotate-45 text-white text-3xl"></i>
+            </div>
+
+            <!-- Bloco de Texto (Marcador + Logo) -->
+            <div class="flex flex-col">
+                <!-- Marcador <01> Grosso, Grande e Centralizado sobre o Vortex -->
+                <div class="h-8 flex items-end">
+                    <span
+                        class="typing-heavy text-2xl font-black text-blue-500 tracking-tighter uppercase leading-none">
+                        &lt;01&gt;
+                    </span>
+                </div>
+
+                <!-- Nome Vortex -->
+                <h1 class="text-4xl md:text-7xl font-black tracking-tighter uppercase text-white leading-[0.8]">
+                    Vortex<span class="text-blue-500 drop-shadow-[0_0_15px_rgba(59,130,246,0.8)]">.</span>
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
+        <div class="text-center max-w-4xl" data-aos="zoom-in">
+            <div
+                class="inline-flex items-center gap-2 px-4 py-2 glass-card rounded-full mb-8 text-xs font-bold tracking-widest text-blue-500 uppercase">
+                <span class="relative flex h-2 w-2">
+                    <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+                </span>
+                VAGAS ILIMITADAS
+            </div>
+            <h1 class="text-6xl md:text-8xl font-black leading-none mb-6 italic tracking-tighter uppercase">
+                Arquitetura<br /><span class="text-blue-600">Digital</span> de Elite.
+            </h1>
+            <p class="text-slate-400 text-xl md:text-2xl mb-12 font-light max-w-2xl mx-auto italic">
+                Não fazemos sites. Construímos <span class="text-white font-bold">Máquinas de Escala</span> para players
+                de alto nível.
+            </p>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="https://wa.me/5566999373778"
+                    class="btn-shine px-12 py-6 bg-white text-black font-black rounded-full hover:bg-blue-600 hover:text-white transition-all text-xl shadow-2xl shadow-blue-500/20 uppercase italic">
+                    DOMINAR O MERCADO
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- Seção de Dados e Compromissos (Foco em Tranquilidade) -->
+<section class="py-20 px-6">
+    <div class="max-w-7x1 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        
+        <!-- Card 1: Transparência -->
+        <div class="stat-card glass-card p-8 rounded-2xl border-l-4 border-blue-500" data-aos="fade-up">
+            <div class="text-4xl font-black text-blue-500 mb-2">100%</div>
+            <div class="text-slate-500 text-xs font-bold uppercase tracking-widest">
+                Transparência em cada etapa
+            </div>
+        </div>
+
+        <!-- Card 2: Suporte -->
+        <div class="stat-card glass-card p-8 rounded-2xl border-l-4 border-blue-500" data-aos="fade-up" data-aos-delay="100">
+            <div class="text-4xl font-black text-blue-500 mb-2">Ativo</div>
+            <div class="text-slate-500 text-xs font-bold uppercase tracking-widest">
+                Suporte e acompanhamento
+            </div>
+        </div>
+
+        <!-- Card 3: Comunicação -->
+        <div class="stat-card glass-card p-8 rounded-2xl border-l-4 border-blue-500" data-aos="fade-up" data-aos-delay="200">
+            <div class="text-4xl font-black text-blue-500 mb-2">Direto</div>
+            <div class="text-slate-500 text-xs font-bold uppercase tracking-widest">
+                Sem termos técnicos difíceis
+            </div>
+        </div>
+
+        <!-- Card 4: Entrega -->
+        <div class="stat-card glass-card p-8 rounded-2xl border-l-4 border-blue-500" data-aos="fade-up" data-aos-delay="300">
+            <div class="text-4xl font-black text-blue-500 mb-2">Sólido</div>
+            <div class="text-slate-500 text-xs font-bold uppercase tracking-widest">
+                Entrega dentro do combinado
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Barra Infinita -->
+    <div class="logo-slider">
+        <div class="logo-track">
+            <div class="logo-item"><i class="fab fa-react"></i> REACT</div>
+            <div class="logo-item"><i class="fas fa-brain"></i> I.A. AGENTS</div>
+            <div class="logo-item"><i class="fas fa-bolt"></i> PERFORMANCE</div>
+            <div class="logo-item"><i class="fas fa-robot"></i> AUTOMAÇÕES</div>
+            <div class="logo-item"><i class="fab fa-node-js"></i> NEXT.JS</div>
+            <div class="logo-item"><i class="fas fa-mobile-alt"></i> MOBILE FIRST</div>
+            <!-- Duplicado para loop infinito -->
+            <div class="logo-item"><i class="fab fa-react"></i> REACT</div>
+            <div class="logo-item"><i class="fas fa-brain"></i> I.A. AGENTS</div>
+            <div class="logo-item"><i class="fas fa-bolt"></i> PERFORMANCE</div>
+            <div class="logo-item"><i class="fas fa-robot"></i> AUTOMAÇÕES</div>
+            <div class="logo-item"><i class="fab fa-node-js"></i> NEXT.JS</div>
+            <div class="logo-item"><i class="fas fa-mobile-alt"></i> MOBILE FIRST</div>
+        </div>
+    </div>
+
+    <!-- Benefícios -->
+    <section class="py-32 px-6 bg-blue-600/5">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 items-center">
+            <div class="md:w-1/2" data-aos="fade-right">
+                <h2 class="text-5xl md:text-6xl font-black italic uppercase mb-8">O fim da era dos <span
+                        class="text-blue-500">Sites Lentos</span></h2>
+                <div class="space-y-6 text-slate-400 text-lg italic leading-relaxed">
+                    <p>Enquanto agências comuns entregam sites pesados em WordPress que afastam clientes, a <span
+                            class="text-white font-bold">VORTEX</span> utiliza engenharia de software de ponta. Cada
+                        milissegundo de carregamento a menos é mais dinheiro no seu bolso.</p>
+                    <p>Nossa metodologia <span class="text-white">Hyper-Growth</span> combina design psicológico com
+                        infraestrutura global. O resultado? Um site que não apenas existe, mas <span
+                            class="text-blue-500 font-black">caça resultados</span>.</p>
+                </div>
+            </div>
+            <div class="md:w-1/2 grid grid-cols-1 gap-6" data-aos="fade-left">
+                <div class="glass-card p-6 rounded-2xl flex items-center gap-6">
+                    <div class="text-4xl font-bold text-blue-500">01</div>
+                    <div>
+                        <h4 class="font-black uppercase italic text-white">Segurança de Camada 7</h4>
+                        <p class="text-xs text-slate-500">Proteção total contra ataques e estabilidade de 99.9%.</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl flex items-center gap-6">
+                    <div class="text-4xl font-bold text-blue-500">02</div>
+                    <div>
+                        <h4 class="font-black uppercase italic text-white">SEO de Dominação</h4>
+                        <p class="text-xs text-slate-500">Estrutura técnica otimizada para o topo do Google
+                            organicamente.</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl flex items-center gap-6">
+                    <div class="text-4xl font-bold text-blue-500">03</div>
+                    <div>
+                        <h4 class="font-black uppercase italic text-white">Escalabilidade Infinita</h4>
+                        <p class="text-xs text-slate-500">Sua estrutura pronta para aguentar milhões de acessos
+                            simultâneos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de IA e Automações -->
+    <section id="ai" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="text-blue-600 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Futuro &
+                    Automação</span>
+                <h2 class="text-5xl md:text-7xl font-black italic uppercase tracking-tighter">Sua empresa no <span
+                        class="text-blue-500 text-neon">Piloto Automático</span></h2>
+                <p class="text-slate-400 mt-6 max-w-2xl mx-auto text-lg italic">Implementamos o que há de mais avançado
+                    em IA para vender, atender e escalar por você 24/7.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card ai-border p-10 rounded-3xl" data-aos="fade-up">
+                    <div class="w-16 h-16 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-8">
+                        <i class="fas fa-comments-dollar text-3xl text-blue-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-black uppercase italic mb-4">Assistentes de Vendas</h3>
+                    <p class="text-slate-400 font-light leading-relaxed">Chats inteligentes que qualificam leads e
+                        fecham vendas direto no seu site ou WhatsApp, sem intervenção humana.</p>
+                </div>
+
+                <div class="glass-card ai-border p-10 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-purple-600/20 rounded-2xl flex items-center justify-center mb-8">
+                        <i class="fas fa-cogs text-3xl text-purple-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-black uppercase italic mb-4">Automação de Fluxo</h3>
+                    <p class="text-slate-400 font-light leading-relaxed">Conectamos seu CRM, E-mail e Site.
+                        Transformamos tarefas repetitivas em processos automáticos e lucrativos.</p>
+                </div>
+
+                <div class="glass-card ai-border p-10 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-cyan-600/20 rounded-2xl flex items-center justify-center mb-8">
+                        <i class="fas fa-brain text-3xl text-cyan-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-black uppercase italic mb-4">IA Personalizada</h3>
+                    <p class="text-slate-400 font-light leading-relaxed">Treinamos modelos de IA com os dados do seu
+                        negócio para criar um assistente que conhece sua empresa como ninguém.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio Atualizado (Mais Projetos) -->
+    <section id="projects" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div data-aos="fade-right">
+                    <span class="text-blue-600 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Portfólio
+                        Selecionado</span>
+                    <h2 class="text-5xl font-black italic uppercase tracking-tighter">Projetos de <span
+                            class="text-blue-500">Alto Impacto</span></h2>
+                </div>
+                <div class="text-blue-500 font-black italic">Portfólio demonstrativo.</div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- Projeto 1 -->
+                <div class="project-card group glass-card" data-aos="fade-up">
+                    <a href="https://nagrelha.netlify.app" target="_blank" class="block w-full h-full">
+                        <img src="img/Bagunça da casa.jpg" alt="Na Grelha"
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0">
+                        <div class="project-overlay absolute inset-0 p-10 flex flex-col justify-end">
+                            <span
+                                class="text-blue-500 font-bold text-xs tracking-widest mb-2 uppercase italic">Hamburgueria
+                                GOURMET</span>
+                            <h3 class="text-3xl font-black uppercase italic mb-4">NA GRELHA</h3>
+                            <div class="flex gap-4">
+                                <span
+                                    class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold uppercase tracking-widest">LAYOUT
+                                    INTUITIVO</span>
+                                <span
+                                    class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold uppercase tracking-widest">MOBILE
+                                    FIRST</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="project-card group glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqRJNNQ37myHdpfbnPldgmyrnLPxzJc7I3iQ&s"
+                        alt="Nova Luxury" class="w-full h-full object-cover grayscale group-hover:grayscale-0">
+                    <a href="https://clinicaex.netlify.app" target="_blank"
+                        class="project-overlay absolute inset-0 p-10 flex flex-col justify-end">
+                        <span class="text-blue-500 font-bold text-xs tracking-widest mb-2 uppercase italic">Estética /
+                            Saude</span>
+                        <h3 class="text-3xl font-black uppercase italic mb-4">ELENA VANCE</h3>
+                        <div class="flex gap-4">
+                            <span
+                                class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold uppercase tracking-widest">Clinica
+                                estética</span>
+                            <span
+                                class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold uppercase tracking-widest">Designer
+                                de Luxo</span>
+                        </div>
+                    </a>
+                </div>
+
+
+           
+        
+        <!-- Pequeno indicador visual de "Abrir" no hover (opcional) -->
+        <div class="absolute top-5 right-5 opacity-0 group-hover:opacity-100 transition-opacity">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+        </div>
+    </a>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manifesto -->
+    <section id="manifesto" class="py-32 px-6 overflow-hidden bg-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div data-aos="fade-right">
+                    <span class="text-blue-600 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Nosso DNA</span>
+                    <h2 class="text-5xl font-black mb-8 italic uppercase tracking-tighter">Não criamos
+                        sites.<br />Construímos <span class="text-blue-500 text-neon">Armas</span>.</h2>
+                    <div class="space-y-6 text-slate-400 text-lg leading-relaxed italic font-light">
+                        <p>
+                            A maioria das agências entrega "páginas". Nós entregamos <span
+                                class="text-white font-bold">vantagem competitiva</span>. Usamos a tecnologia que as Big
+                            Techs usam para garantir que seu site nunca caia e carregue instantaneamente.
+                        </p>
+                        <p>
+                            Nossa abordagem é baseada em dados, não em palpites. Cada pixel é posicionado para guiar o
+                            usuário até a conversão final.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative" data-aos="fade-left">
+                    <div class="glass-card p-4 rounded-[2rem] border-blue-500/20">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+                            alt="Tech Operation" class="rounded-[1.5rem] grayscale brightness-50">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-32 px-6 bg-zinc-950/30">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-6xl font-black mb-4 uppercase italic">Dúvidas <span
+                        class="text-blue-600 text-neon">Frequentes</span></h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="faq-item glass-card rounded-2xl overflow-hidden">
+                    <button
+                        class="faq-button w-full p-8 text-left font-bold text-xl flex justify-between items-center transition-all hover:bg-white/5 uppercase italic tracking-tight">
+                        Qual o prazo médio de entrega?
+                    </button>
+                    <div class="faq-content">
+                        <div class="p-8 pt-0 text-slate-400 leading-relaxed border-t border-white/5 mt-4">
+                            Projetos de alta performance levam em média de 15 a 30 dias. Não trabalhamos com pressa,
+                            trabalhamos com precisão cirúrgica.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item glass-card rounded-2xl overflow-hidden">
+                    <button
+                        class="faq-button w-full p-8 text-left font-bold text-xl flex justify-between items-center transition-all hover:bg-white/5 uppercase italic tracking-tight">
+                        A IA substitui atendentes humanos?
+                    </button>
+                    <div class="faq-content">
+                        <div class="p-8 pt-0 text-slate-400 leading-relaxed border-t border-white/5 mt-4">
+                            Ela filtra e resolve 80% das demandas comuns, deixando sua equipe humana focada apenas no
+                            fechamento de grandes contratos ou casos complexos onde a empatia é vital.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item glass-card rounded-2xl overflow-hidden">
+                    <button
+                        class="faq-button w-full p-8 text-left font-bold text-xl flex justify-between items-center transition-all hover:bg-white/5 uppercase italic tracking-tight">
+                        Como funciona o suporte pós-entrega?
+                    </button>
+                    <div class="faq-content">
+                        <div class="p-8 pt-0 text-slate-400 leading-relaxed border-t border-white/5 mt-4">
+                            Oferecemos monitoramento 24/7 e atualizações constantes. Sua "arma digital" nunca ficará
+                            obsoleta.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="py-40 px-6 text-center">
+        <div class="max-w-5xl mx-auto glass-card p-20 rounded-[4rem] relative overflow-hidden">
+            <div class="blob -top-20 -right-20"></div>
+            <h2 data-aos="fade-up" class="text-5xl md:text-7xl font-black mb-10 tracking-tighter italic uppercase">
+                Pronto para o <span class="text-blue-600 underline">Próximo Nível</span>?
+            </h2>
+            <a href="https://wa.me/5566999373778"
+                class="btn-shine bg-white text-black px-16 py-8 rounded-2xl font-black text-2xl hover:bg-blue-600 hover:text-white transition-all inline-block shadow-2xl uppercase italic">
+                RESERVAR VAGA <i class="fab fa-whatsapp ml-3"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
+            <div>
+                <span class="text-xl font-black uppercase tracking-tighter mb-4 block text-neon">Vortex<span
+                        class="text-blue-500">.</span></span>
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-[0.3em]">Architecting Digital Dominance
+                </p>
+                <p class="text-slate-600 text-[10px] mt-4 uppercase">© 2024 Vortex Group. Built for winners.</p>
+            </div>
+            <div class="flex gap-4">
+                <a href="#"
+                    class="w-12 h-12 glass-card rounded-xl flex items-center justify-center hover:bg-blue-600 transition-all"><i
+                        class="fab fa-instagram text-xl"></i></a>
+                <a href="https://wa.me/5566999373778"
+                    class="w-12 h-12 glass-card rounded-xl flex items-center justify-center hover:bg-blue-600 transition-all"><i
+                        class="fab fa-whatsapp text-xl"></i></a>
+                <a href="#"
+                    class="w-12 h-12 glass-card rounded-xl flex items-center justify-center hover:bg-blue-600 transition-all"><i
+                        class="fab fa-linkedin-in text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+<script src="https://ia-vortex.netlify.app/widget.js"></script>
+</body>
+
+</html>
